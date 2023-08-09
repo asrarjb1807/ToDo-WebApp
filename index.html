@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">   
+            <h1>ToDo</h1>
+            <img src="./images/todo-mig.gif" alt="logo" class="logo">
+            <i  mg src="./images/menu-bar.png" alt="menu-img" class="menuImg">
+        </div>
+        <div class="task-tracker">
+
+            <div class="count-container">
+                <div>
+                    <img src="./images/check-mark.png" alt="img"> 
+                                         
+                    <h3 class="completed-task">
+                    </h3>
+                </div>    
+            </div>    
+
+            <div class="count-container">
+            <div>
+                <img src="./images/pending.png"  alt="img">
+                <h3 class="pending-task">
+                </h3>
+            </div>
+            <div><h3>All tasks :</h3><h3 class="all-task"></h3>
+            </div>    
+            </div> 
+
+        </div>       
+        <div class="input-container">
+            <input type="text" id="inputField" placeholder="     Add a new task" required>
+            <button><img src="./images/add.png"></button>
+        </div>
+        <ul class="list-container">
+            <!-- <li>
+                <p></p>
+                <img class="tap-img">
+                <div>
+                    <img class="done-img">
+                    <img class="del-img">
+                </div>
+            </li> -->
+            
+        </ul>
+    </div>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

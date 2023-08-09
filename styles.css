@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Barber-Complete";
+    src: url("./Barber-Complete.otf") format("opentype");
+}
+
+/* sample using the font */
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrap{
+    height: 100vh;
+    width: 100%;
+    padding: .5rem;  
+    background-color: #F9F7F7;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+h1{
+    font-family: "Barber-Complete";
+    font-size: 2.5rem;
+    color: rgb(34, 17, 17);
+}
+.logo{
+    height: 3.5rem;
+}
+
+/* count section */
+.count-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count-container img{
+    height: 1.5rem;
+    margin-right: 0 0 10px 0;
+}
+h3{
+    margin: .6rem 10px;
+    display: inline-block;
+    position: relative;
+    bottom: .2rem;
+}
+.task-tracker{
+    margin: 2rem .7rem 1rem 1rem;
+}
+
+/* input section */
+input{
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0 0 0 1rem;
+    /* background-color: rgb(4, 17, 13); */
+}
+button img{
+    height: 2rem;
+    background-color: rgb(253, 253, 253);
+}
+button{
+    height: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.input-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 95%;
+    height: 70px;
+    margin: 30px auto;
+    border: 2px solid #112D4E;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* list section */
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 350px;
+    background-color: #112D4E;
+    margin: 30px 10px;
+    padding-top: .5rem;
+    border-radius: 20px;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3.75rem;
+    width: 95%;
+    margin: .5rem 0;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: #F9F7F7;
+}
+ul li img{
+    height: 1rem;
+    content: url("./images/tap.png");  
+}
+
+ul li p{
+    width: 80%;
+}
+
+.del-img{
+    content: url("./images/trash-can.png");
+    margin-left: 10px;
+}
+.done-img{
+    content: url("./images/yes.png");
+}
+p{
+    color: black;
+}
