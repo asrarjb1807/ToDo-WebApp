@@ -114,7 +114,7 @@ ul li {
 }
 ul li img{
     height: 1rem;
-    content: url("./images/tap.png");  
+    content: url("./tap.png");  
 }
 
 ul li p{
@@ -122,11 +122,11 @@ ul li p{
 }
 
 .del-img{
-    content: url("./images/trash-can.png");
+    content: url("./trash-can.png");
     margin-left: 10px;
 }
 .done-img{
-    content: url("./images/yes.png");
+    content: url("./yes.png");
 }
 p{
     color: black;
