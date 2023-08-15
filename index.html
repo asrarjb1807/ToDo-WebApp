@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo-WebApp</title>
+    <link rel="icon" type="image/x-icon" href="./media/selection.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="wrap">
         <div class="header">   
             <h1>ToDo</h1>
-            <img src="./todo-mig.gif" alt="logo" class="logo">
-            <!-- <img src="./menu-bar.png" alt="menu-img" class="menuImg"> -->
+            <img src="./media/todo-mig.gif" alt="logo" class="logo">
         </div>
         <div class="task-tracker">
 
             <div class="count-container">
                 <div>
-                    <img src="./check-mark.png" alt="img"> 
+                    <img src="./media/check-mark.png" alt="img"> 
                                          
                     <h3 class="completed-task">
                     </h3>
@@ -26,7 +26,7 @@
 
             <div class="count-container">
             <div>
-                <img src="./pending.png"  alt="img">
+                <img src="./media/pending.png"  alt="img">
                 <h3 class="pending-task">
                 </h3>
             </div>
@@ -37,18 +37,19 @@
         </div>       
         <div class="input-container">
             <input type="text" id="inputField" placeholder="     Add a new task" required>
-            <button><img src="./add.png"></button>
+            <button><img src="./media/add.png"></button>
+        </div>
+        <div class="completed-container">
+            <div class="cc1">
+                <div class="del-all">
+                    Del All 
+                </div>
+                <h4>Completed task ⤵️</h4>  
+                <img class="drop-down" src="./media/down-arrow.png" height="25" alt="">
+            </div> 
+            <div class="cc2"></div> 
         </div>
         <ul class="list-container">
-            <!-- <li>
-                <p></p>
-                <img class="tap-img">
-                <div>
-                    <img class="done-img">
-                    <img class="del-img">
-                </div>
-            </li> -->
-            
         </ul>
     </div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
