@@ -43,14 +43,12 @@ $("button").click(function() {
 });
 $(".cc2").hide();
 document.addEventListener("click", function(e){
-    console.log(e);
     if(e.target.classList.length === 0 && e.target.tagName === "IMG" && e.target.clientHeight === 16){
         $(e.target).fadeOut(150);
         $(e.target.parentElement.lastChild).show(150).delay(3000).hide(150);  
         $(e.target).delay(3050).fadeIn(150);
     }
     else if(e.target.className === "cc1" || e.target.className === "drop-down" || e.target.className === "drop-down rotate"){
-        console.log(e.target)
         $(".completed-container").toggleClass("padding-class");
         $(".cc2").slideToggle(100);
         $(".cc1 img").toggleClass("rotate");
